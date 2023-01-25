@@ -1,0 +1,10 @@
+in-memory-web-api
+src
+gulpfile.js
+.gitignore
+.npmignore
+tsconfig.json
+tslint.json
+typings
+typings.json
+.editorconfig

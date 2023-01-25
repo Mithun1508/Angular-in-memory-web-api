@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../in-memory-web-api/index.ts"],
+  "sourcesContent": [null],
+  "mappings": ";;;;;;AAAA,SAAA,QAAc,qBAAqB,CAAC;AACpC,SAAA,QAAc,6BAA6B,CAAC;AAC5C,SAAA,QAAc,4BAA4B,CAAC;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../in-memory-web-api/src/index.ts"],
+  "sourcesContent": ["export * from './http-status-codes';\nexport * from './in-memory-backend.service';\nexport * from './in-memory-web-api.module';\n"],
+  "mappings": ";;;;;;;;;;;;;;AAAA;AAAA;AAAA,wBAAc,gCAAd;AACA,wBAAc,wCADd;AAEA,wBAAc,uCAFd;",
+  "names": []
+}

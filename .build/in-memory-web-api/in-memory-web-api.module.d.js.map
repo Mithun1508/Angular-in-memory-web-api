@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../in-memory-web-api/in-memory-web-api.module.d.ts"],
+  "sourcesContent": ["import { Injector, ModuleWithProviders, Type } from '@angular/core';\r\nimport { XHRBackend } from '@angular/http';\r\nimport { InMemoryBackendConfigArgs, InMemoryBackendConfig, InMemoryDbService } from './in-memory-backend.service';\r\nexport declare function inMemoryBackendServiceFactory(injector: Injector, dbService: InMemoryDbService, options: InMemoryBackendConfig): XHRBackend;\r\nexport declare class InMemoryWebApiModule {\r\n    /**\r\n    *  Prepare in-memory-web-api in the root/boot application module\r\n    *  with class that implements InMemoryDbService and creates an in-memory database.\r\n    *\r\n    * @param {Type} dbCreator - Class that creates seed data for in-memory database. Must implement InMemoryDbService.\r\n    * @param {InMemoryBackendConfigArgs} [options]\r\n    *\r\n    * @example\r\n    * InMemoryWebApiModule.forRoot(dbCreator);\r\n    * InMemoryWebApiModule.forRoot(dbCreator, {useValue: {delay:600}});\r\n    */\r\n    static forRoot(dbCreator: Type<InMemoryDbService>, options?: InMemoryBackendConfigArgs): ModuleWithProviders;\r\n}\r\n"],
+  "mappings": ";;;;;;;;;;;;;AAAA;AAAA;",
+  "names": []
+}
