@@ -57,6 +57,19 @@ export class InMemHeroService implements InMemoryDbService {
   }
 }
 
+# FEATURES:
+  1) Config Args
+  
+  2) Req Evaluation Order
+  
+  3) Delayed Response 
+  
+  4) Simple query things 
+  
+  5) Parsing Request URL
+  
+  6) passing to Live server 
+  
 # HTTP method interceptors
 You may have HTTP requests that the in-memory web api can't handle properly.
 
